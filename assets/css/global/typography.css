@@ -1,0 +1,82 @@
+:root {
+    --font-primary: "Open Sans", "Segoe UI", Tahoma, sans-sereif;
+}
+
+body {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    color: var(--primary-darker);
+    background-color: var(--primary-lighter);
+    font-family: var(--font-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-primary);
+}
+
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+.text,
+.text-md {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+
+.text-xd {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+}
+
+.heading-3xl {
+    font-size: 4.5rem;
+    line-height:  4.5rem;
+}
+
+.heading-2xl {
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+}
+
+.heading-xl {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.heading-lg {
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+}
+
+.heading,
+.heading-md {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.heading-sm {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.headin-xs {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
