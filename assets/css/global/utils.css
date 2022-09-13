@@ -1,0 +1,71 @@
+/* .w-full {
+    width: 100%;
+  } */
+
+.light {
+    font-weight: 300;
+}
+
+.regular {
+    font: 400;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.mono {
+    font-family: "Source Code Pro", monospace,
+}
+
+.overline {
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;   
+}
+
+.list-style-none {
+    list-style-type: none;
+  }
+  
+  .text-decoration-none {
+    text-decoration: none;
+  }
+
+  .py-3 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .my-0\.5{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+  }
+  
+  .mb-1 {
+    margin-bottom: 1rem;
+  }
+  
+  .text-primary-regular {
+    color: var(--primary-regular);
+  }
+  
+  .text-primary-dark {
+    color: var(--primary-dark);
+  }
+  
+  .text-white {
+    color: var(--white)
+  }
+  
+  .bg-primary-darker {
+    background-color: var(--primary-darker);
+  }
+
+  .text-align-center {
+    text-align: center;
+  }
+
+  .line-height-30 {
+    line-height: 30px;
+    font-size: 20px
+  }
