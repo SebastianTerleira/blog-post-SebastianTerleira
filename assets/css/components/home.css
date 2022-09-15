@@ -1,0 +1,75 @@
+.article h1 {
+    line-height: 40px;
+    margin-bottom: 36px;
+}
+
+.article p {
+    margin: 24px 0;
+    line-height: 32px;
+   
+}
+
+.article h2 {
+    line-height: 36px;
+    margin-top: 56px;
+    margin-bottom: 24px;
+}
+
+.article strong {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.article a {
+    color: var(--primary-dark);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.article em {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.article li {
+    margin: 18px 0;
+    line-height: 32px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.article blockquote {
+    margin: 24px 0;
+    border-left: 9px solid #44C566;
+    background: linear-gradient(#CCFAE1,#77E297);
+    padding: 16px 18px;
+    line-height: 32px;
+    font-style: italic;
+    
+    /* background: var(--primary-regular); */
+}
+
+.article figure {
+    margin: 32px 0;
+}
+
+.article img {
+    width: 736px;
+    height: 558px;
+    border-radius: 8px;
+}
+
+.article figcaption {
+    margin-top: 16px;
+    line-height: 24px;
+}
+
+@media only screen and (max-widht: 400px){
+    .articicle img {
+        width: 343px;
+        height: 341px;
+    }
+}
