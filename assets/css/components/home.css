@@ -1,0 +1,17 @@
+/* Article Summary */
+
+.article-summary__header {
+    text-align: center;
+  }
+  
+  .article-summary__content {
+    display: grid;
+    /* repeat(#_de_veces, tamano) */
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* grid-template-columns: repeat(auto-fill, 1fr); */
+    /* grid-template-columns: repeat(auto-fill, 600px); */
+    grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+    gap: 2rem;
+  
+    /* padding: 3rem; */
+  }
