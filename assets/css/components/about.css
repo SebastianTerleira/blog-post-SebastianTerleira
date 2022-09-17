@@ -1,0 +1,93 @@
+.skills__content {
+    display: flex;
+    /* border:1px solid black;
+      background-color: #ccc; */
+    /* padding: 0px; */
+    gap: 1rem;
+    /* width: 500px; */
+    left: 384px;
+    height: 149px;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: start;
+  }
+
+  .about-summary__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+    gap: 2rem;
+  }
+  
+  
+  .caja {
+    /* border: 1px solid rgb(70, 69, 69);
+      background-color: white; */
+    display: flex;
+    text-align: center;
+    margin: 5px;
+  }
+  
+  .icon {
+    position: relative;
+    height: 25.599998474121094px;
+    width: 25.599998474121094px;
+    left: 3.199951171875px;
+    top: 3.1999969482421875px;
+    border-radius: 0px;
+    /* border: 1px solid rgb(70, 69, 69);
+      background-color: white; */
+  }
+  
+  .item1 {
+    /* position: relative; */
+    /* border: 1px solid rgb(70, 69, 69);
+      background-color: white; */
+    height: 45px;
+    line-height: 120%;
+  }
+  
+  .caja2 {
+    flex: 30%;
+    line-height: 200px;
+    /* border: 1px solid rgb(70, 69, 69);
+      background-color: white; */
+    align-items: flex-start;
+    justify-content: start;
+  }
+
+  .about-hobbies__header {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  .about-hobbies {
+    background-color: var(--gray-100);
+  }
+  
+  .about-hobbies__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+  
+  .about-hobbies__content-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hobbies-card__image {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+  }
+  
+  .hobbies-card__paragraph {
+    text-align: center;
+    padding: .5rem .5rem;
+  }
+  
+  
