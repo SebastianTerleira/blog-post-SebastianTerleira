@@ -85,3 +85,32 @@
   .social svg:hover path{
     fill: var(--pink_600);
   }
+
+  @media (max-width: 768px){
+    .project__presentation{
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+    .project__left{
+      width: 100%;
+    }
+    .project__presentation img{
+      width: 100%;
+    }
+    .project__left h2 {
+      text-align: center;
+    }
+    .project__left button {
+      width: 100%;
+    }
+  }
+  @media (max-width: 658px){
+    
+    .how_body{
+      flex-wrap: wrap;
+    }
+    .team__body{
+      flex-wrap: wrap;
+    }
+  }
