@@ -87,7 +87,7 @@
   }
 
   @media (max-width: 768px){
-    .project__presentation{
+    .project__page {
       display: flex;
       flex-direction: column;
       gap: 32px;
@@ -95,7 +95,7 @@
     .project__left{
       width: 100%;
     }
-    .project__presentation img{
+    .project__page img{
       width: 100%;
     }
     .project__left h2 {
@@ -107,7 +107,7 @@
   }
   @media (max-width: 658px){
     
-    .how_body{
+    .worked_body{
       flex-wrap: wrap;
     }
     .team__body{
