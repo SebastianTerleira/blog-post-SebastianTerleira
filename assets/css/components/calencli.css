@@ -1,0 +1,87 @@
+.project__page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    gap: 2rem;
+}
+
+.project__left {
+    width: 50%;
+}
+
+.project__left p {
+    margin: 20px 0px 40px 0px;
+    line-height: 28px;
+}
+
+.project__worked {
+    background-color: var(--gray_100);
+}
+
+.worked {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.worked_body {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: nowrap;
+    margin-top: 48px;
+}
+
+.icon_worked {
+    background-color: var(--pink-600);
+    padding: 10px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background-color: var(--gray-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+.how__card h4{
+    margin: 20px 0 8px 0;
+  } 
+
+  .team{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .team__body{
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .team__cards{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .team__cards h5{
+    margin: 16px 0 9px 0;
+  }
+  .team__cards img{
+    object-fit:fill;
+    width: 100%;
+    padding: 0;
+  }
+
+  .social{
+    display: flex;
+    gap: 22px
+  }
+  .social svg:hover path{
+    fill: var(--pink_600);
+  }
