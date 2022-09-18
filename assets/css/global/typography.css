@@ -47,6 +47,13 @@ h6 {
   line-height: 1.5rem;
 }
 
+.head-xxl {
+  font-family: var(--mont);
+  font-size: 3.75rem;
+  line-height: 3.75rem;
+  color: var(--gray_900);
+}
+
 .heading-3xl {
   font-size: 4.5rem;
   line-height: 4.5rem;
@@ -74,8 +81,8 @@ h6 {
 }
 
 .heading-sm {
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.87rem;
+    line-height: 2.5rem;
 }
 
 .headin-xs {
