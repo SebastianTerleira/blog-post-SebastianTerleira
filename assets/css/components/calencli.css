@@ -18,7 +18,7 @@
 }
 
 .project__worked {
-    background-color: var(--gray_100);
+    background-color: var(--gray-100);
 }
 
 .worked {
@@ -38,10 +38,10 @@
     padding: 10px;
 }
 
-.icon {
+.icon_cli {
     width: 40px;
     height: 40px;
-    background-color: var(--gray-100);
+    background-color: var(--gray-200);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,7 +83,7 @@
     gap: 22px
   }
   .social svg:hover path{
-    fill: var(--pink_600);
+    fill: crimson;
   }
 
   @media (max-width: 768px){

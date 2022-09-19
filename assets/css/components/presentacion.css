@@ -19,7 +19,7 @@
 /* Hero Section */
 
 #hero{
-    background-image: url(/assets/image/fondo.jpg);
+    background-image: url(/assets/image/entorno-programacion\ \(1\).webp);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -139,25 +139,3 @@
 			font-weight: 600;
 		}
 }
-
-/* End Keyframes */
-
-/* .span {
-display: block;
-font-family: monospace;
-white-space: nowrap;
-border-right: 4px solid;
-width: 12ch;
-
-animation: typing 2s steps(12), blink .5s infinite step-end alternate;
-overflow:hidden;
-}
-
-@keyframes typing {
-
-from { width: 0}
-}
-
-@keyframes blink {
- 50% { border-color: transparent}
-} */

@@ -61,20 +61,21 @@
 
 /* Buttons primary - START */
 .button--primary {
-    background-color: var(--primary-dark);
+    background-color: var(--red-500);
     color: var(--primary-lighter);
+    transition: .25s;
   }
   
   .button--primary:hover {
-    background-color: var(--green-700);
+    background-color: var(--red-600);
   }
   
   .button--primary:active {
-    background-color: var(--green-800);
+    background-color: crimson;
   }
   
   .button--primary:focus {
-    outline: 2px solid var(--outline-primary);
+    outline: 2px solid white;
     outline-offset: 1px;
   }
   

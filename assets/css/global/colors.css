@@ -59,6 +59,8 @@
     --green-700: #2A5F38;
     --green-800: #1B3C23;
     --green-900: #09201B;
+    --black-700: #100e0e;
+    --pink-600: #2171b5;
   
     --black: #171717;
     --white: #fff;
@@ -78,6 +80,8 @@
     --error: var(--red-500);
     --error-dark: var(--red-600);
     --error-darker: var(--red-700);
+    --navbar-color: var(--black-700);
+    --background-color: var(--pink-600)
   
     --outline-primary: rgba(58, 130, 77, 0.6);
   }

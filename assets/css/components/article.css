@@ -1,55 +1,58 @@
 .article h1 {
+    color: black;
     line-height: 40px;
     margin-bottom: 36px;
 }
 
 .article p {
+    font-size: 16px;
     margin: 24px 0;
-    line-height: 32px;
+    line-height: 24px;
    
 }
 
 .article h2 {
+    color: black;
     line-height: 36px;
     margin-top: 56px;
     margin-bottom: 24px;
 }
 
 .article strong {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 32px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .article a {
-    color: var(--primary-dark);
-    font-weight: 400;
+    color: crimson;
+    font-weight: 500;
     font-size: 18px;
     line-height: 32px;
 }
 
 .article em {
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 17px;
     line-height: 32px;
 }
 
 .article li {
     margin: 18px 0;
-    line-height: 32px;
-    font-weight: 300;
-    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .article blockquote {
+    color: black;
+    font-size: 16px;
     margin: 24px 0;
-    border-left: 9px solid #44C566;
-    background: linear-gradient(#CCFAE1,#77E297);
-    padding: 16px 18px;
+    border-left: 9px solid black;
+    background: linear-gradient(var(--red-200), var(--red-300), var(--red-400));
+    padding-left: 30px;
     line-height: 32px;
     font-style: italic;
-    
-    /* background: var(--primary-regular); */
 }
 
 .article figure {

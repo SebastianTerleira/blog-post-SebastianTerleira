@@ -10,8 +10,16 @@
     font-weight: 400;
 }
 
+.weight-500 {
+  font-weight: 500;
+}
+
 .semibold {
     font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
 }
 
 .mono {
@@ -83,13 +91,17 @@
   .text-primary-dark {
     color: var(--primary-dark);
   }
+
+  .text-crimson {
+    color: crimson;
+  }
   
   .text-white {
     color: var(--white)
   }
   
   .bg-primary-darker {
-    background-color: var(--primary-darker);
+    background-color: black;
   }
 
   .text-align-center {
@@ -103,4 +115,12 @@
 
   .line-height-28 {
     line-height: 28px;
+  }
+
+  .line-height-16 {
+    line-height: 16px;
+  }
+
+  .line-height-40 {
+    line-height: 40px;
   }

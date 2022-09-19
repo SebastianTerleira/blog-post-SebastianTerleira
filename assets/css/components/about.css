@@ -2,9 +2,7 @@
     display: flex;
     /* border:1px solid black;
       background-color: #ccc; */
-    /* padding: 0px; */
     gap: 1rem;
-    /* width: 500px; */
     left: 384px;
     height: 149px;
     flex-flow: row wrap;
@@ -27,7 +25,9 @@
     margin: 5px;
   }
   
+  
   .icon {
+    filter:brightness(0) saturate(100%) invert(16%) sepia(81%) saturate(4894%) hue-rotate(340deg) brightness(88%) contrast(96%);
     position: relative;
     height: 25.599998474121094px;
     width: 25.599998474121094px;

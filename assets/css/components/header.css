@@ -1,9 +1,10 @@
 .header {
-    background-color: var(--primary-darker);
-  }
+    background-color: var(--navbar-color);
+}
   
   .header__logo {
-    color: var(--primary-light)
+    color: white;
+    font-family:"Montserrat", sans-serif;
   }
   
   .navbar {
@@ -23,18 +24,18 @@
   
   .navbar__links .link {
     text-decoration: none;
-    color: var(--primary-regular);
+    color: crimson;
     padding: .5em .75em;
     border-radius: .5em;
   }
   
   .navbar__links .link:hover {
-    background-color: var(--green-800);
+    background-color: black;
   }
   
   .navbar__links .link:focus,
   .header__logo:focus {
-    outline: 2px solid var(--outline-primary);
+    outline: 2px solid crimson;
     outline-offset: 1px;
   }
 
