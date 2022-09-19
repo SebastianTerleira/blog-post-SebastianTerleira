@@ -33,8 +33,7 @@
     background-color: black;
   }
   
-  .navbar__links .link:focus,
-  .header__logo:focus {
+  .navbar__links .link:focus {
     outline: 2px solid crimson;
     outline-offset: 1px;
   }
